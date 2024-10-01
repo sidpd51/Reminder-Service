@@ -12,12 +12,12 @@ const setupAndStartServer = () => {
 
     app.listen(PORT, () => {
         console.log(`server is listening on PORT: ${PORT}`);
-        sendBasicEmail('"Maddison Foo Koch 👻" <maddison53@ethereal.email>','sidpd510@gmail.com','Just a testing sample','testing body')
+        // sendBasicEmail('"Maddison Foo Koch 👻" <maddison53@ethereal.email>','sidpd510@gmail.com','Just a testing sample','testing body')
    
 
-        cron.schedule('*/1 * * * *', () => {
-          console.log('running a task every two minutes');
-        });
+        // cron.schedule('*/1 * * * *', () => {
+        //   console.log('running a task every two minutes');
+        // });
     });
 };
 setupAndStartServer();
